@@ -1,0 +1,7 @@
+---
+applications:
+  - name: SpringBootMySql
+    path: target/bootmysql-pcf-0.0.1-SNAPSHOT.jar
+    memory: 1G
+    services:
+      - mysqldb
